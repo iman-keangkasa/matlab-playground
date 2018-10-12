@@ -1,0 +1,3 @@
+All inbuilt rotation or translation matrix to homogenous transformation matrix does not work with symbolic variables
+
+All my functions cannot use size to determined the symbolic matrix size

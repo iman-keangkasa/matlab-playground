@@ -1,4 +1,6 @@
 function r=homo_transform(array)
+%Convert rotational matrix or translational vextor to their equivalent Homogenous transformation matrix (HTM)
+
 	I_mat =[1 0 0; 0 1 0; 0 0 1];
 	scale = [0 0 0 1];
 	zero_column = [0; 0; 0];

@@ -1,4 +1,8 @@
 function r=inverse_homo(array)
+% INVERSE_HOMO gets the inverse of DH homogeneous transformation matrix (HTM)
+% C = INVERSE_HOMO(ARRAY) gets the inverse of ARRAY
+% ARRAY can be a translation vector, rotational matrix or HTM with the former two will be converted to their HTM equivalence.
+
 	[row column] = size(array);
 	scale = [ 0 0 0 1];
 	if row == 3

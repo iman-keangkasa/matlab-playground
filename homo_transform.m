@@ -1,4 +1,4 @@
-function r=homo_trans(array)
+function r=homo_transform(array)
 	I_mat =[1 0 0; 0 1 0; 0 0 1];
 	scale = [0 0 0 1];
 	zero_column = [0; 0; 0];

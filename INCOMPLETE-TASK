@@ -1,0 +1,6 @@
+[x] Files with incomplete tag
+[x] Create Structure in *_trans *_rot
+[x] Finish all forward kinematics model
+[x] Code inverse kinematics solution
+[x] Test inverse kinematics solution
+[x] Visualization and path planning model
